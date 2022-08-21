@@ -25,5 +25,5 @@ Picture files seemed to have little to no compression. This may be because each 
 
 What happens when you try and compress a Huffman code file?
 
-Compressing a Huffman code file lead to a ratio of approximately 1.0 between the original and prior file. This is likely because the compressed file is technically randomly generated, since the codes are 8-bit sequences that are pseudorandom. As such, any number value between 0 and 255 holds an equal chance of showing up, which means that compression based on frequencies of values will not work.
+Compressing a Huffman code file led to a ratio of approximately 1.0 between the original and prior file. This is likely because the compressed file is technically randomly generated, since the codes are 8-bit sequences that are pseudorandom. As such, any number value between 0 and 255 holds an equal chance of showing up, which means that compression based on frequencies of values will not work.
 
